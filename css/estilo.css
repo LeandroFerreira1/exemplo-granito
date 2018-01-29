@@ -1,0 +1,164 @@
+body, html{
+  height: 100%;
+}
+body{
+  background: #000;
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+/* ========================= layout ======================== */
+
+
+/* -- Barra de navegação -- */
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('../img/logo.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+  padding: 10px 0px;
+	background: #164450;
+	border: none;
+}
+
+.navbar-brand{
+	padding: 15px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #0088AA;
+}
+
+/*slide*/
+#slider{
+  margin-top: 70px;
+}
+#slider .item{
+  height: 400px;
+}
+
+#slide1 {
+	background: url('../img/img5.jpg') center no-repeat;
+}
+
+#slide2 {
+	background: url('../img/img5.jpg') center no-repeat;
+}
+
+#slide3 {
+	background: url('../img/img5.jpg') center no-repeat;
+}
+
+#sobre{
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/*rodapé*/
+
+footer{
+  background: #164450;
+  padding: 50px 0px 20px 0px;
+  position: relative;
+}
+
+.texto-footer{
+  color: white;
+}
+
+.img-footer {
+	height: 40px;
+	width: 132px;
+	display: inline-block;
+	background: url('../img/logo.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+/*############################## localização #######################*/
+
+#mapa{
+  height: 400px;
+}
+
+/* ========================= Tipografia ======================== */
+
+#sobre h1{
+  text-align: center;
+  padding: 20px 20px;
+}
+
+#sobre p{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+
+.texto-top{
+  padding-top: 50px;
+  margin-top:30px;
+  margin-bottom: 20px;
+  color: #DBE3DB;
+  text-transform: uppercase;
+}
+
+.text-local{
+    padding-bottom: 10px;
+    font-size: 1.4em;
+}
+
+@media screen and (max-width: 767px){
+  #sobre h1{
+    font-size: 2.2em;
+  }
+
+  .text-local{
+      font-size: 1.2em;
+  }
+  .texto-top h1{
+    font-size: 1.8em;
+  }
+
+  #sobre p{
+    font-size: 1em;
+  }
+
+  .texto-footer{
+    font-size: 0.9em;
+  }
+
+  #slider .item{
+    height: 200px;
+  }
+
+  #slide1 {
+  	background: url('../img/img200.png') center no-repeat;
+  }
+
+  #slide2 {
+  	background: url('../img/img200.png') center no-repeat;
+  }
+
+  #slide3 {
+  	background: url('../img/img200.png') center no-repeat;
+  }
+
+}
