@@ -70,7 +70,61 @@ nav.navbar-transparente {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+/*catálogo*/
 
+#catalogo{
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*Efeito das imagens*/
+
+.dg-item{
+  margin-bottom: 20px;
+}
+
+.dg-item  .dg-overlay {
+    position: absolute;
+    z-index: 10;
+    top: 5px;
+    right: 20px;
+    bottom: 5px;
+    left: 20px;
+    background: white;
+    opacity: 0;
+    -webkit-transition: opacity .5s ease;
+       -moz-transition: opacity .5s ease;
+         -o-transition: opacity .5s ease;
+            transition: opacity .5s ease;
+}
+
+.dg-item .dg-overlay-text {
+    line-height: 100%;
+    position: absolute;
+    z-index: 11;
+    top: 70%;
+    right: 0;
+    left: 0;
+    margin-top: -5px;
+    text-align: center;
+    opacity: 0;
+    text-transform: uppercase;
+
+    -webkit-transition: opacity .5s, top .7s, ease;
+       -moz-transition: opacity .5s, top .7s, ease;
+         -o-transition: opacity .5s, top .7s, ease;
+            transition: opacity .5s, top .7s, ease;
+}
+
+.dg-item:hover .dg-overlay {
+    opacity: 1;
+}
+
+.dg-item:hover .dg-overlay-text {
+    opacity: 1;
+    top: 50%;
+}
 
 /*rodapé*/
 
