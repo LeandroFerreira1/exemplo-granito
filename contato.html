@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Granito - Localização</title>
+    <title>Granito - Contato</title>
     <link rel="icon" href="imagens/">
 
     <!-- Bootstrap -->
@@ -49,7 +49,7 @@
         <div class="collapse navbar-collapse" id="barra-navegacao">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Inicial</a></li>
-            <li><a href="intitucional.html">Institucional</a></li>
+            <li><a href="institucional.html">Institucional</a></li>
             <li><a href="catalogo.html">Catálogo</a></li>
             <li><a href="localizacao.html">Localização</a></li>
             <li><a href="contato.html">Contato</a></li>
@@ -59,17 +59,62 @@
     </nav><!-- /nav -->
 
     <div class="container texto-top">
-      <h1>Localização</h1>
+      <h1>Contato</h1>
        </div>
 
-    <section id="sobre">
+    <section id="catalogo">
       <div class="container">
-        <div class="text-local">
-          Rodovia Cachoeiro Morro Grande, S/N, Km 00, Exemplo<br>Cachoeiro do Itapemirim - ES. Brasil<br />
-          CEP: 00.000-000
-        </div>
 
-        <div id="mapa" ></div>
+        <div class="page-header">
+          <p class="lead">Entre em contato conosco!</p>
+        </div>
+        <div class="row">
+
+         <div class="col-sm-6 contato">
+           <form class="" >
+             <div class="form-group">
+               <label for="nome">Nome</label>
+               <input type="text" name="nome" id="nome" placeholder="Nome" class="form-control" value="">
+             </div>
+
+             <div class="form-group">
+               <label for="email">E-mail</label>
+               <input type="email" name="email" id="email" class="form-control" placeholder="E-mail" value="">
+             </div>
+
+             <div class="form-group">
+               <label for="tel">Telefone</label>
+               <input type="text" name="tel" id="tel" class="form-control" placeholder="Telefone" value="">
+             </div>
+
+             <div class="form-group">
+               <label for="ass">Assunto</label>
+               <input type="text" name="ass" id="ass" placeholder="Assunto" class="form-control" value="">
+             </div>
+
+             <div class="form-group">
+               <label for="mens">Menssagem</label>
+               <textarea class="form-control" id="mens" name="Messagem" placeholder="Mensagem" rows="5"></textarea>
+             </div>
+             <button type="submit" class="btn btn-default" name="button">Enviar</button>
+           </form>
+         </div>
+         <div class="col-sm-6 contato">
+  		    <div class="card-text">
+  		    	<div><strong>E-mail: </strong></div>
+  		    	<a href="#" >contato@exemplo.com.br</a>
+  		    	<div class="email"><strong>Phone: </strong></div>
+  		        <div>+55 (28) 0000-0000</div>
+  		        <div>+55 (28) 0000-0000</div>
+  		    </div>
+		        <div class="card-body social-links">
+    				<a href="#"><i class="fa fa-facebook-square icon-social" aria-hidden="true"></i></a>
+    				<a href="#"><i class="fa fa-google-plus-square icon-social" aria-hidden="true"></i></a>
+    				<a href="#"><i class="fa fa-twitter-square icon-social" aria-hidden="true"></i></a>
+			    </div>
+		</div>
+	</div>
+     </div>
       </div>
     </section>
 
